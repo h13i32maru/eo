@@ -1,0 +1,43 @@
+{
+  "name": "eo",
+  "version": "0.0.0",
+  "description": "generator based flow control and DOM event loop",
+  "scripts": {
+    "init": "bash ./script/init.sh",
+    "build": "bash ./script/build.sh",
+    "test": "bash ./script/test.sh",
+    "jsdoc": "bash ./script/build_jsdoc.sh",
+    "sample": "bash ./script/build_sample.sh",
+    "start": "bash ./script/server.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h13i32maru/eo"
+  },
+  "keywords": [
+    "coroutine",
+    "yield",
+    "generator",
+    "co",
+    "async",
+    "event",
+    "stream"
+  ],
+  "author": "h13i32maru",
+  "license": "MIT",
+  "devDependencies" : {
+    "6to5": "3.4.1",
+    "mocha": "",
+    "espower-cli": "",
+    "browserify": "",
+    "karma": "",
+    "karma-mocha": "",
+    "karma-chrome-launcher": "",
+    "karma-safari-launcher": "",
+    "karma-cli": "",
+    "karma-coverage": "",
+    "jsdoc": "",
+    "http-server": "",
+    "eo.whatwg-streams": ""
+  }
+}
