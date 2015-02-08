@@ -61,7 +61,7 @@ with DOM event.
   });
 ```
 
-see [example](tree/master/example)
+see [example](example)
 
 # Document
 TODO: write document.
